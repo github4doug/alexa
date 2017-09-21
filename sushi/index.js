@@ -1,12 +1,7 @@
 'use strict';
 var Alexa = require('alexa-sdk');
 
-//=========================================================================================================================================
-//TODO: The items below this comment need your attention.
-//=========================================================================================================================================
-
 //Replace with your app ID (OPTIONAL).  You can find this value at the top of your skill's page on http://developer.amazon.com.  
-//Make sure to enclose your value in quotes, like this: var APP_ID = "amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1";
 var APP_ID = "";
 
 var SKILL_NAME = "Sushi Facts";
@@ -15,9 +10,6 @@ var HELP_MESSAGE = "You can say tell me a sushi fact, or, you can say exit... Wh
 var HELP_REPROMPT = "What can I help you with?";
 var STOP_MESSAGE = "Goodbye!";
 
-//=========================================================================================================================================
-//TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-node-js-fact/data
-//=========================================================================================================================================
 var data = [
     "Sushi has always been cosmopolitan.",
     "The earthquake of 1923 brought sushi off the streets.",
